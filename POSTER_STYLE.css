@@ -1,0 +1,189 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    
+
+}
+
+main {
+    width: 1080px;
+    height: 2244px;
+    margin: 0 auto;
+    background-color: skyblue;
+
+
+}
+
+#POSTER{
+    width: 1080px;
+    height: 2244px;
+}
+
+.POSTER-CONTENT{
+    width: 1080px;
+    height: 2244px;
+    /*margin-top: 20%;*/
+}
+
+.TITLE{
+    font-size: 90px;
+    color: white;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+
+}
+
+.SUBTEXT{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 5%;
+    top:3%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+#ROCKET{
+    display: block;
+    padding-top: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    position:relative;
+    top:-120px;
+    animation-duration: 3s;
+    
+    
+}
+
+.CLOUDS{
+    width:1080px;
+    margin-top:10%;
+    position:relative;
+    top:-55%;
+    }
+
+
+#c1 {
+    float:left;
+    width: 400px;
+    position:relative;
+    left:2%;
+    opacity: .6;
+    animation-duration: 4s;
+    animation-delay: 0.8s;
+    }
+#c2 {
+    float:right;
+    width: 400px;
+    position:relative;
+    right:2%;
+    opacity: .6;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-direction:reverse;
+}
+#c3 {
+    float:left;
+    clear:left;
+    width:540px;
+    display:inline-block;
+    position:relative;
+    top: -40px;
+    left: -110px;
+    opacity: .8;
+    animation-duration: 4s;
+    animation-delay: 0.8;
+    
+    }
+#c4 {
+    float:right;
+    clear:right;
+    width: 540px;
+    display:inline-block;
+    position:relative;
+    top: -40px;
+    right: -110px;
+    opacity: .6;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    }
+
+
+.BEAMS{
+    position: ;
+    width: 1080px;
+    height: 500px;
+    z-index: 200;
+    top: -900px;
+    overflow: hidden; 
+    
+    
+}
+
+#b1 {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    /* height: 40px; */
+    z-index: 300;
+    background-color: white;
+    left: 14vw;
+    top: 20px;
+}
+
+#b2 {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 200px;
+    z-index: 400;
+    background-color: white;
+    left: 14.2vw;
+    top: 190px; 
+}
+
+#b3 {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 110px;
+    z-index: 400;
+    background-color: white;
+    left: 14.4vw;
+    top: 120px; 
+}
+
+#b4 {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 80px;
+    z-index: 400;
+    background-color: white;
+    left: 14.6vw;
+    top: 60px; 
+}
+
+
+
+@keyframes beamOne {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 400px;
+    }
+}
+
+.beaming{
+    animation: infinite
+    animation-name: beamOne;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+}
