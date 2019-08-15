@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="./CSS FOLDER/POSTER_STYLE.css">
+        <link rel="stylesheet" href="./animate.css-master/animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <!-- blah blah -->
+
+    <body>
+        <main> <!-- this defines main content of body, which is the poster, I guess?-->
+                <div id="POSTER"><!-- this is the div that contains all info of the poster! size, position, background colour-->
+                    <div class="POSTER-CONTENT">
+
+                        <div class="TITLE">
+                            <p>
+                                From the Earth <br>
+                                to the Moon <br>
+                                and back
+                            </p>
+                        
+
+                        </div>        
+
+                        <div class="SUBTEXT">
+                            <p>
+                                a story <br>
+                                by Jules Verne<br>
+                                or Elon Musk<br>
+                            </p>
+
+
+                        </div>
+                        <img id="ROCKET" src="./ROCKET.svg" class="animated infinite bounce" onmousedown="engineStart()">
+                        </div>
+                        
+                        <div class="BEAMS">
+                                <div id="b1"></div> 
+                                <!-- while mouse is clicked, we add a class to b1 - b4 , see js file -->
+                                <div id="b2"></div>
+                                <div id="b3"></div>
+                                <div id="b4"></div>                       
+                        </div>
+
+                        <div class = "CLOUDS">
+                            <img id = "c1" src = "./CLOUD_LEFT.svg" class="animated infinite wobble">
+                            <img id = "c2" src = "./CLOUD_RIGHT.svg" class="animated infinite wobble">
+                            <img id = "c3" src = "./CLOUD_LEFT.svg" class="animated infinite wobble">
+                            <img id = "c4" src = "./CLOUD_RIGHT.svg" class="animated infinite wobble">
+                        </div>
+                    </div>
+                </div>     
+        </main>
+        <script type = "text/javascript" src="./JSFOLDER/POSTER.js"></script>
+    </body>
+
+</html>    
